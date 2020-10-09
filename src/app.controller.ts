@@ -16,12 +16,17 @@ export class AppController {
     return this.appService.getPopulacao(uf);
   }
 
-  @Get('estados/todos')
-  async getEstadosCompleto(): Promise<any> {
+  @Get('estados/fila')
+  async getEstadosFila(): Promise<any> {
     const server = new RabbitmqServer('amqp://admin:admin@rabbitmq:5672')
     await server.start();
     await server.publishInQueue('lista_uf_atualizada', JSON.stringify(this.appService.getMerge())); 
     return {};
+  }
+
+  @Get('estados/rest')
+  getEstadosCompleto(): any {
+    return this.appService.getMerge(); 
   }
 
 }
