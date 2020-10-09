@@ -9,5 +9,6 @@ npm run start
 
 - GET http://localhost:3000/estados
 - GET http://localhost:3000/populacao/rj
-- GET http://localhost:3000/populacao/todos
+- GET http://localhost:3000/estados/fila (método publica na fila lista_uf_atualizada, a mesma consome e printa no log)
+- GET http://localhost:3000/estados/rest (mesmo retorno anterior, porém em REST)
 
