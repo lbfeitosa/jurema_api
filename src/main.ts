@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
 
-  const server = new RabbitmqServer('amqp://admin:admin@localhost:5672');
+  const server = new RabbitmqServer('amqp://admin:admin@rabbitmq:5672');
   await server.start();
   await server.consume('lista_uf_atualizada', message =>
     console.log(message.content.toString()),

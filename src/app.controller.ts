@@ -18,7 +18,7 @@ export class AppController {
 
   @Get('estados/todos')
   async getEstadosCompleto(): Promise<any> {
-    const server = new RabbitmqServer('amqp://admin:admin@localhost:5672')
+    const server = new RabbitmqServer('amqp://admin:admin@rabbitmq:5672')
     await server.start();
     await server.publishInQueue('lista_uf_atualizada', JSON.stringify(this.appService.getMerge())); 
     return {};
