@@ -1,0 +1,206 @@
+{
+    "estados": [
+        {
+            "nome": "São Paulo",
+            "uf": "SP"
+        },
+        {
+            "nome": "Rio de Janeiro",
+            "uf": "RJ"
+        },
+        {
+            "nome": "Pernambuco",
+            "uf": "PE"
+        },
+        {
+            "nome": "Bahia",
+            "uf": "BA"
+        },
+        {
+            "nome": "Acre",
+            "uf": "AC"
+        },
+        {
+            "nome": "Alagoas",
+            "uf": "AL"
+        },
+        {
+            "nome": "Amapá",
+            "uf": "AP"
+        },
+        {
+            "nome": "Amazonas",
+            "uf": "AM"
+        },
+        {
+            "nome": "Ceará",
+            "uf": "CE"
+        },
+        {
+            "nome": "Espirito Santo",
+            "uf": "ES"
+        },
+        {
+            "nome": "Goiás",
+            "uf": "GO"
+        },
+        {
+            "nome": "Maranhão",
+            "uf": "MA"
+        },
+        {
+            "nome": "Mato Grosso",
+            "uf": "MT"
+        },
+        {
+            "nome": "Mato Grosso do Sul",
+            "uf": "MS"
+        },
+        {
+            "nome": "Minas Gerais",
+            "uf": "MG"
+        },
+        {
+            "nome": "Pará",
+            "uf": "PA"
+        },
+        {
+            "nome": "Paraná",
+            "uf": "PR"
+        },
+        {
+            "nome": "Piauí",
+            "uf": "PI"
+        },
+        {
+            "nome": "Rio Grande do Norte",
+            "uf": "RN"
+        },
+        {
+            "nome": "Rio Grande do Sul",
+            "uf": "RS"
+        },
+        {
+            "nome": "Rondônia",
+            "uf": "RO"
+        },
+        {
+            "nome": "Roraima",
+            "uf": "RR"
+        },
+        {
+            "nome": "Sergipe",
+            "uf": "SE"
+        },
+        {
+            "nome": "Tocantins",
+            "uf": "TO"
+        },
+        {
+            "nome": "Distrito Federal",
+            "uf": "DF"
+        }                                                           
+    ],
+    "populacao": [
+        {
+            "populacao": 452309201,
+            "uf": "SP"
+        },
+        {
+            "populacao": 562309201,
+            "uf": "RJ"
+        },
+        {
+            "populacao": 309309101,
+            "uf": "PE"
+        },
+        {
+            "populacao": 21345456,
+            "uf": "BA"
+        },
+        {
+            "populacao": 1000,
+            "uf": "AC"
+        },
+        {
+            "populacao": 2000,
+            "uf": "AL"
+        },
+        {
+            "populacao": 3000,
+            "uf": "AP"
+        },
+        {
+            "populacao": 5390920,
+            "uf": "AM"
+        },
+        {
+            "populacao": 18903420,
+            "uf": "CE"
+        },
+        {
+            "populacao": 40000,
+            "uf": "ES"
+        },
+        {
+            "populacao": 234324,
+            "uf": "GO"
+        },
+        {
+            "populacao": 5464567,
+            "uf": "MA"
+        },
+        {
+            "populacao": 3242552,
+            "uf": "MT"
+        },
+        {
+            "populacao": 4234235,
+            "uf": "MS"
+        },
+        {
+            "populacao": 324425252,
+            "uf": "MG"
+        },
+        {
+            "populacao": 89543,
+            "uf": "PA"
+        },
+        {
+            "populacao": 2334556,
+            "uf": "PR"
+        },
+        {
+            "populacao": 3234091,
+            "uf": "PI"
+        },
+        {
+            "populacao": 213141254,
+            "uf": "RN"
+        },
+        {
+            "populacao": 123423531,
+            "uf": "RS"
+        },
+        {
+            "populacao": 12314423,
+            "uf": "RO"
+        },
+        {
+            "populacao": 123122314,
+            "uf": "RR"
+        },
+        {
+            "populacao": 45647568,
+            "uf": "SE"
+        },
+        {
+            "populacao": 78934232,
+            "uf": "TO"
+        },
+        {
+            "populacao": 145345,
+            "uf": "DF"
+        }                                                           
+    ]    
+}
